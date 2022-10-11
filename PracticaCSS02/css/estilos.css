@@ -5,6 +5,12 @@ body{
     max-width: 1078px;
     min-width: 1078px;
 }
+#bgoffer{
+    position: relative;
+    top: -406px;
+    left: -24px;
+}
+
 header nav{
     /*text-align: center;*/
     margin-left: 220px;
@@ -26,6 +32,8 @@ header input{
 #paint{
     float: right;
 }
+
+
 
 #granthams{
     margin-left: 25px;
@@ -49,12 +57,60 @@ header input{
     margin-left: 50px;
     width: 30%;
 }
+#secc01art02 ul{
+    list-style: none;
+    margin-left: -40px;
+}
+#secc01art02 ul li:before{
+    color: #ff0099;
+    content: "*";
+
+}
+#segundaSeccion article{
+    text-align: right;
+    margin-right: 165px;
+}
+#terceraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+#secc03art04{
+    padding-top: 40px;    
+}
+
+#secc03art04 input[type=email]{
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+
+}
+#secc03art04 input[type=submit]{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px ;
+}
+
 
 .colorrosa{
     color: #ff0099;
 }
+.colorazul{
+    color: #4267B3;
+}
+.colorverde{
+    color: #8BC500;
+}
 .letragrande{
     font-size: 3.5em;
+}
+.letramediana{
+    font-size: 2em;
 }
 .nito{
     font-weight: bold;
