@@ -1,0 +1,48 @@
+body{
+    font-size: 16px; 
+    margin: 0px auto;
+    max-width: 1024px;
+    min-width: 1024px;
+}
+
+header nav{
+    background-color: chocolate;
+    border-radius: 4px;
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+header nav ul li {
+    display: inline-block;
+    color: white;
+    font-size: 1.1em;
+    
+    margin-right: 15px;
+    padding-bottom: 4px;
+}
+
+#logo{
+    display: block;
+}
+
+#red1{
+    float: right;
+    padding-left: 6px;
+}
+#red2{
+    float: right;
+    padding-left: 6px;
+}
+#red3{
+    float: right;
+    padding-left: 6px;
+}
+
+#thema{
+    width: 250px;
+    padding-bottom: 15px;
+}
+
+#secction02{
+    display: block;
+}
