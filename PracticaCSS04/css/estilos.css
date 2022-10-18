@@ -1,0 +1,52 @@
+body{
+    font-size: 16px; 
+    margin: 0px auto;
+    max-width: 1024px;
+    min-width: 1024px;
+}
+
+header nav{
+    padding-top: 0.5px;
+    padding-bottom: 0.5px;
+}
+
+#headernav01{
+    text-align: center;
+}
+#headernav02{
+    background-color: lightgrey;
+    text-align: right;
+}
+#segundasection{
+    border: red 2px solid;
+    float: right;
+    margin-left: 50px;
+}
+#segundasection article{
+    display: inline-block;
+}
+
+#secc02art01 {
+    display: inline-block;
+    width: 22%;
+}
+#secc02art02 {
+    display: inline-block;
+    width: 22%;
+}
+#secc02art03 {
+    display: inline-block;
+    width: 22%;
+}
+#secc02art04 {
+    display: inline-block;
+    width: 22%;
+}
+
+#secc02art01 nav{
+    display: inline-block;
+    border: red 2px solid;
+    
+}
+
+
