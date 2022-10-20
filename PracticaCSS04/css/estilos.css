@@ -3,50 +3,237 @@ body{
     margin: 0px auto;
     max-width: 1024px;
     min-width: 1024px;
+    border: #245d92 20px solid;
+
+}
+header{
+    background-color: #245d92;
 }
 
 header nav{
     padding-top: 0.5px;
     padding-bottom: 0.5px;
 }
+header nav img{
+    width: 20%;
+}
 
 #headernav01{
     text-align: center;
 }
-#headernav02{
-    background-color: lightgrey;
-    text-align: right;
-}
-#segundasection{
-    border: red 2px solid;
-    float: right;
-    margin-left: 50px;
-}
-#segundasection article{
-    display: inline-block;
-}
-
-#secc02art01 {
-    display: inline-block;
-    width: 22%;
-}
-#secc02art02 {
-    display: inline-block;
-    width: 22%;
-}
-#secc02art03 {
-    display: inline-block;
-    width: 22%;
-}
-#secc02art04 {
-    display: inline-block;
-    width: 22%;
-}
-
-#secc02art01 nav{
-    display: inline-block;
-    border: red 2px solid;
+#secc00art01{
+    background-color: #efefef;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 100px;
     
 }
+
+
+
+#headernav02{
+    background-color: #efefef;
+    text-align: right;
+
+    padding-bottom: 5px;
+}
+#primersection{
+    margin-right: 790px;
+    margin-bottom: 50px;
+
+}
+#primersection article ul{
+    color: white;
+    list-style: none;
+    margin-left: -20px;
+    margin-top: -1px;
+    padding-bottom: 3px;
+}
+#primersection article li{
+    margin-bottom: 8px;
+}
+#primersection article ul li::before{
+    content: "</> ";
+}
+#primersection article ul li::after{
+    content: " Example";
+}
+#primersection article {
+    background-color: #1e4974;
+}
+
+#segundasection{
+
+    margin-right: 790px;
+    background-color: white;
+}
+#secc02art01{
+
+    background-color: #245d92;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline;
+}
+
+
+#segundasection article{
+    display: block;
+}
+
+#tercerasection{
+    border: white 8px solid;
+    float: right;
+    margin-left: 250px;
+    margin-top: -600px;
+    background-color: white;
+    
+
+}
+#tercerasection article{
+    margin-left: 10px;
+}
+
+
+
+
+
+#cuartasection{
+    margin-bottom: 10px;
+}
+#cuartasection{
+    margin-left: 25px;
+}
+
+#secc04art01{
+    margin-bottom: 10px;
+}
+
+#secc04art02 {
+    display: inline-block;
+    background-color: #19a820;
+    text-align: center;
+    width: 16%;
+    padding-top: 5px;
+}
+#secc04art03 {
+    display: inline-block;
+    background-color:#1b6da9 ;
+    text-align: center;
+    width: 16%;
+}
+#secc04art04 {
+    display: inline-block;
+    background-color:#7f1aa6;
+    text-align: center;
+    width: 16%;
+
+}
+#secc04art05 {
+    display: inline-block;
+    background-color: #a71a19;
+    text-align: center;
+    width: 16%;
+
+}
+#quintasection{
+    margin-left: 30px;
+}
+#panels{
+    width: 90%;
+}
+
+
+#sextasection{
+    margin-left: 30px;
+
+}
+#sextaasection article{
+    padding-bottom: 5px;
+}
+#sextasection article input{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border:#58c2db 2px solid ;
+   background-color: #58c2db;
+   color: white;
+   padding-top: 4px;
+   padding-bottom: 4px;
+}
+
+#secc06art01 {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+    padding-top: 10px;
+}
+#secc06art02 {
+    display: inline-block;
+ 
+    text-align: center;
+    width: 18%;
+}
+#secc06art03 {
+    display: inline-block;
+
+    text-align: center;
+    width: 18%;
+}
+#secc06art04 {
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    width: 18%;
+}
+
+
+
+#mensajes{
+    width: 12%;
+}
+#ajustes{
+    
+    width: 10%;
+}
+#notificaciones{
+    width: 15%;
+}
+
+.imagenbarra{
+    width: 95%;
+}
+
+.imagencubo{
+    width: 45%;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 10px;
+
+}
+.imagenusuario{
+    width: 98%;
+}
+
+.cubomargin{
+    margin-left: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 10px;
+    color: white;
+}.usuario{
+    background-color: #4a6cae;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.imagenlinks{
+    float: left;
+    width: 10%;
+}
+
+
+
 
 
