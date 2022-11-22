@@ -57,8 +57,63 @@ app.post('/api/articulos',function(req,res){
         }
     })
 })
+//que el cliente frontedn pueda usar API
+let cors = require('cors')
+let app = express()
+
+//para recibir datos json
+app.use(express.json())
+
+//ruta para actualizar un articulo
+app.put('/api/articulos/:id'function(req,res){
+    let id = req.params.id
+    let description = req.body.descripcion
+    let precio = req.body.precio
+    let cantidad = req.body.cantidad
+    let sql = "update articulos set descripcion = ?,precio =?,cantidad =? where id = ?";
+    conexion.query(sql,[descripcion,precio,cantidad,id],
+        function(error,results){
+            if(error){
+                throw error
+            }else{
+                res.send(results)
+            }
+        })
+})
+
+//Ruta para eliminar un articulo
+app.delete('/api/articulos/:id',function(req,res){
+    let id = req.params.id
+    conexion.query('delete from articulos where id =?',[id],function(error,results){
+        if(error){
+            throw error
+        }else{
+            res.send(results)
+        }
+    });
+})
 
 
 
 
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
